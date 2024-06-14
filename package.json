@@ -1,15 +1,161 @@
 {
-  "name": "framework-arduinobouffalo",
-  "version": "5.00001.210913",
-  "description": "BL602 Arduino Core for Arduino IDE",
-  "keywords": [
-    "framework",
-    "arduino",
-    "bl602",
-    "riscv"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pine64/ArduinoCore-bouffalo.git"
-  }
+    "packages": [
+        {
+            "name": "bouffalo",
+            "maintainer": "PINE64 Community",
+            "email": "gamiee@pine64.dev",
+            "help": {
+                "online": "https:\/\/web.archive.org\/web\/20221226001600\/https:\/\/pine64.org"
+            },
+            "websiteURL": "https:\/\/web.archive.org\/web\/20221226001600\/https:\/\/github.com\/pine64\/ArduinoCore-bouffalo",
+            "platforms": [
+                {
+                    "name": "Arduino for Bouffalo Labs RISC-V MCUs",
+                    "architecture": "riscv",
+                    "version": "0.0.1",
+                    "category": "Arduino",
+                    "archiveFileName": "ArduinoCore-bouffalo-0.0.1.zip",
+                    "url": "https:\/\/web.archive.org\/web\/20221226001600\/https:\/\/nutcracker.pine64.org\/arduino\/core\/ArduinoCore-bouffalo-0.0.1.zip",
+                    "checksum": "SHA-256:83afa043abaaabda40a8f4aca2a4382f0d95ab15c1d3b89ee0eba7968fc72e51",
+                    "size": 68051,
+                    "help": {
+                        "online": "https:\/\/web.archive.org\/web\/20221226001600\/https:\/\/github.com\/pine64\/ArduinoCore-bouffalo"
+                    },
+                    "boards": [
+                        {
+                            "name": "PINE64 PineCone"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "bouffalo",
+                            "version": "0.0.1",
+                            "name": "riscv64-unknown-elf"
+                        },
+                        {
+                            "packager": "bouffalo",
+                            "version": "0.0.1",
+                            "name": "flasher"
+                        },
+                        {
+                            "packager": "bouffalo",
+                            "version": "0.0.1",
+                            "name": "bl_iot_sdk_arduino"
+                        }
+                    ]
+                }
+            ],
+            "tools": [
+                {
+                    "version": "0.0.1",
+                    "name": "flasher",
+                    "systems": [
+                        {
+                            "archiveFileName": "flasher-0.0.1.zip",
+                            "url": "https:\/\/web.archive.org\/web\/20221226001600\/https:\/\/nutcracker.pine64.org\/arduino\/flasher\/flasher-0.0.1.zip",
+                            "size": 7022289,
+                            "checksum": "SHA-256:e174189d3954f4aab69ef1402450976f8eb6208c39ce8a3664ac51ee7bcbee09",
+                            "host": "i686-mingw32"
+                        },
+                        {
+                            "archiveFileName": "flasher-0.0.1.zip",
+                            "url": "https:\/\/web.archive.org\/web\/20221226001600\/https:\/\/nutcracker.pine64.org\/arduino\/flasher\/flasher-0.0.1.zip",
+                            "size": 7022289,
+                            "checksum": "SHA-256:e174189d3954f4aab69ef1402450976f8eb6208c39ce8a3664ac51ee7bcbee09",
+                            "host": "x86_64-apple-darwin"
+                        },
+                        {
+                            "archiveFileName": "flasher-0.0.1.zip",
+                            "url": "https:\/\/web.archive.org\/web\/20221226001600\/https:\/\/nutcracker.pine64.org\/arduino\/flasher\/flasher-0.0.1.zip",
+                            "size": 7022289,
+                            "checksum": "SHA-256:e174189d3954f4aab69ef1402450976f8eb6208c39ce8a3664ac51ee7bcbee09",
+                            "host": "x86_64-pc-linux-gnu"
+                        },
+                        {
+                            "archiveFileName": "flasher-0.0.1.zip",
+                            "url": "https:\/\/web.archive.org\/web\/20221226001600\/https:\/\/nutcracker.pine64.org\/arduino\/flasher\/flasher-0.0.1.zip",
+                            "size": 7022289,
+                            "checksum": "SHA-256:e174189d3954f4aab69ef1402450976f8eb6208c39ce8a3664ac51ee7bcbee09",
+                            "host": "i686-pc-linux-gnu"
+                        },
+                        {
+                            "archiveFileName": "flasher-0.0.1.zip",
+                            "url": "https:\/\/web.archive.org\/web\/20221226001600\/https:\/\/nutcracker.pine64.org\/arduino\/flasher\/flasher-0.0.1.zip",
+                            "size": 7022289,
+                            "checksum": "SHA-256:e174189d3954f4aab69ef1402450976f8eb6208c39ce8a3664ac51ee7bcbee09",
+                            "host": "arm-linux-gnueabihf"
+                        }
+                    ]
+                },
+                {
+                    "version": "0.0.1",
+                    "name": "bl_iot_sdk_arduino",
+                    "systems": [
+                        {
+                            "archiveFileName": "bl_iot_sdk_arduino_0.0.1.zip",
+                            "url": "https:\/\/web.archive.org\/web\/20221226001600\/https:\/\/nutcracker.pine64.org\/arduino\/bl_iot_sdk_arduino\/bl_iot_sdk_arduino_0.0.1.zip",
+                            "size": 4625304,
+                            "checksum": "SHA-256:ff31bc2298686ac8b52acf57c074e849cab760c57d4e1606f1b6465239e41429",
+                            "host": "i686-mingw32"
+                        },
+                        {
+                            "archiveFileName": "bl_iot_sdk_arduino_0.0.1.zip",
+                            "url": "https:\/\/web.archive.org\/web\/20221226001600\/https:\/\/nutcracker.pine64.org\/arduino\/bl_iot_sdk_arduino\/bl_iot_sdk_arduino_0.0.1.zip",
+                            "size": 4625304,
+                            "checksum": "SHA-256:ff31bc2298686ac8b52acf57c074e849cab760c57d4e1606f1b6465239e41429",
+                            "host": "x86_64-apple-darwin"
+                        },
+                        {
+                            "archiveFileName": "bl_iot_sdk_arduino_0.0.1.zip",
+                            "url": "https:\/\/web.archive.org\/web\/20221226001600\/https:\/\/nutcracker.pine64.org\/arduino\/bl_iot_sdk_arduino\/bl_iot_sdk_arduino_0.0.1.zip",
+                            "size": 4625304,
+                            "checksum": "SHA-256:ff31bc2298686ac8b52acf57c074e849cab760c57d4e1606f1b6465239e41429",
+                            "host": "x86_64-pc-linux-gnu"
+                        },
+                        {
+                            "archiveFileName": "bl_iot_sdk_arduino_0.0.1.zip",
+                            "url": "https:\/\/web.archive.org\/web\/20221226001600\/https:\/\/nutcracker.pine64.org\/arduino\/bl_iot_sdk_arduino\/bl_iot_sdk_arduino_0.0.1.zip",
+                            "size": 4625304,
+                            "checksum": "SHA-256:ff31bc2298686ac8b52acf57c074e849cab760c57d4e1606f1b6465239e41429",
+                            "host": "i686-pc-linux-gnu"
+                        },
+                        {
+                            "archiveFileName": "bl_iot_sdk_arduino_0.0.1.zip",
+                            "url": "https:\/\/web.archive.org\/web\/20221226001600\/https:\/\/nutcracker.pine64.org\/arduino\/bl_iot_sdk_arduino\/bl_iot_sdk_arduino_0.0.1.zip",
+                            "size": 4625304,
+                            "checksum": "SHA-256:ff31bc2298686ac8b52acf57c074e849cab760c57d4e1606f1b6465239e41429",
+                            "host": "arm-linux-gnueabihf"
+                        }
+                    ]
+                },
+                {
+                    "version": "0.0.1",
+                    "name": "riscv64-unknown-elf",
+                    "systems": [
+                        {
+                            "archiveFileName": "riscv64-unknown-elf-win32-0.0.1.zip",
+                            "url": "https:\/\/web.archive.org\/web\/20221226001600\/https:\/\/nutcracker.pine64.org\/arduino\/riscv64-unknown-elf\/riscv64-unknown-elf-win32-0.0.1.zip",
+                            "size": 232345935,
+                            "checksum": "SHA-256:d119b7e401c08cbc5c841b22d6d8822b34d1a678a5c80d24f8f3b37f0e65b060",
+                            "host": "i686-mingw32"
+                        },
+                        {
+                            "archiveFileName": "riscv64-unknown-elf-darwin-0.0.1.zip",
+                            "url": "https:\/\/web.archive.org\/web\/20221226001600\/https:\/\/nutcracker.pine64.org\/arduino\/riscv64-unknown-elf\/riscv64-unknown-elf-darwin-0.0.1.zip",
+                            "size": 207007192,
+                            "checksum": "SHA-256:afe6a7590efd769e56e6d93aa7a6dd55785654bb5b1ccaaabfc0270e2bc9dd36",
+                            "host": "x86_64-apple-darwin"
+                        },
+                        {
+                            "archiveFileName": "riscv64-unknown-elf-linux-0.0.1.zip",
+                            "url": "https:\/\/web.archive.org\/web\/20221226001600\/https:\/\/nutcracker.pine64.org\/arduino\/riscv64-unknown-elf\/riscv64-unknown-elf-linux-0.0.1.zip",
+                            "size": 214049534,
+                            "checksum": "SHA-256:d965ffadd941c54ae584162ae2e661aab2c4bb5d72fec799a3ac8493d15f8ba2",
+                            "host": "x86_64-pc-linux-gnu"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
